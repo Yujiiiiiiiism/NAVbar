@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Activity 2 - Navigation Bar 1</title>
+<style>
+    ul {
+        list-style-type: square;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #EF715A;
+        column-span: 5px;
+        border-collapse: collapse;
+    } 
+    li {
+        float: left;
+        margin-left: 10px;
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 11px 16px;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    li a:hover {
+        border-bottom: 3px solid black;
+        color: black;
+    }
+    li span {
+        position: relative;
+        left: -10px;
+    }
+    li::marker {
+        color: rgb(181, 171, 171);
+    }
+</style>
+</head>
+<body>
+<ul>
+    <li><span><a href="#">HOME</a></li>
+    <li><span><a href="#">PRODUCTS</a></span></li>
+    <li><span><a href="#">COMPANY</a></span></li>
+    <li><span><a href="#">CONTACT</a></span></li>
+</ul>
+</body>
+</html>
